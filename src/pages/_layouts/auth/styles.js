@@ -36,12 +36,11 @@ export const Content = styled.div`
         color: rgba(255, 255, 255, 0.7);
       }
     }
-    span{
-      color:#fb6f91;
+    span {
+      color: #fb6f91;
       align-self: flex-start;
       margin: 0 0 10px;
       font-weight: bold;
-
     }
     button {
       margin: 5px 0 0;
@@ -60,7 +59,7 @@ export const Content = styled.div`
     }
 
     a {
-      text-decoration: none
+      text-decoration: none;
       color: #fff;
       margin-top: 15px;
       font-size: 16px;

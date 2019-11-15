@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
 import * as Yup from 'yup';
-import logo from '~/assets/churrasqueira.png';
+import logo from '~/assets/logo.svg';
 
 import { signInRequest } from '~/store/models/auth/actions';
 
