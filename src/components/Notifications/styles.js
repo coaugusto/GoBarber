@@ -9,6 +9,7 @@ export const Container = styled.div`
 export const Badge = styled.button`
   background: none;
   border: 0;
+  left: 10px;
   position: relative;
 
   ${props =>
@@ -29,8 +30,8 @@ export const Badge = styled.button`
 export const NotificationList = styled.div`
   position: absolute;
   width: 260px;
-  left: calc(50% - 130px);
-  top: calc(100% + 30px);
+  left: calc(100% - 130px);
+  top: calc(100% + 25px);
   background: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
   padding: 15px 5px;
@@ -49,8 +50,8 @@ export const NotificationList = styled.div`
   }
 `;
 export const Scroll = styled(PerfectScrollar)`
-  max-height: 260px;
-  padding: 5px 15px;
+  max-height: 150px;
+  padding: 3px 15px;
 `;
 export const Notification = styled.div`
   color: #fff;

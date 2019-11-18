@@ -16,7 +16,6 @@ export default function Header() {
           <img src={logo} alt="gobarber" />
           <Link to="/dashboard">DASHBOARD</Link>
         </nav>
-
         <aside>
           <Notifications />
           <Profile>
@@ -32,6 +31,7 @@ export default function Header() {
               alt="Carlos Augusto"
             />
           </Profile>
+
         </aside>
       </Content>
     </Container>

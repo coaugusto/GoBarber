@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #fff;
-  padding: 0 30px;
+  padding: 0 60px;
 `;
 export const Content = styled.div`
   height: 64px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -17,8 +17,8 @@ export const Content = styled.div`
     align-items: center;
 
     img {
-      margin-right: 20px;
-      padding-right: 20px;
+      margin-right: 2px;
+      padding-right: 2px;
       border-right: 1px solid #eee;
     }
 
@@ -27,7 +27,7 @@ export const Content = styled.div`
       color: #7159c1;
     }
   }
-  aside {
+  aside {    
     display: flex;
     align-items: center;
   }
