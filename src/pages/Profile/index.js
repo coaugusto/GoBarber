@@ -38,7 +38,7 @@ export default function Profile() {
         <button type="submit">Atualizar Perfil</button>
       </Form>
       <button type="button" onClick={handleSignOut}>
-        Sair do GoBarber
+        Sair do sistema
       </button>
     </Container>
   );
